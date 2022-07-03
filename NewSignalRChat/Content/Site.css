@@ -1,0 +1,230 @@
+﻿body {
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614408052_6-p-biznes-fon-temnii-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+* {
+    color: cadetblue;
+    font-weight: bold;
+    
+}
+.main {
+    text-align: center;
+    margin-top: 220px;
+}
+
+.chatTitle {
+    color: azure;
+    font-weight: bold;
+    font-size: 43px;
+    margin-top: 25px;
+}
+
+.txtUserName {
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.txtUserName1 {
+    transform: translate(0px, -30px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.txtUserName::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+    .txtUserName:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #bdbdbd;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    }
+#header {
+    margin-top: 80px;
+}
+
+.btnLogin {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+.btnLogin11 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.btnLogin:hover {
+    background: rgb(53, 167, 110);
+}
+
+    .btnLogin:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+    }
+
+.setName {
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+}
+
+h3 {
+    color: azure;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+#chatusers {
+    width: 350px;
+    background-color: darkgray;
+    opacity: 0.3;
+    border-radius: 40px;
+    margin-left: 85px;
+}
+
+b {
+    color: azure;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.messageSize {
+    font-weight: bold;
+    color: aliceblue;
+   
+}
+.messageSizeB {
+    font-weight: bold;
+    color: aliceblue;
+}
+#text {
+    font-weight: bold;
+    color: aliceblue;
+}
+#chatroom {
+    margin: 0 auto;
+    background-image: url("https://phonoteka.org/uploads/posts/2021-06/1624019833_15-phonoteka_org-p-temnie-oboi-krasivo-16.jpg");
+    width: 530px;
+    border-radius: 60px;
+}
+.sayThankYou {
+    margin-left: 345px;
+    text-align: center;
+    margin-top: 170px;
+    position: absolute;
+}
+.card {
+    display: none;
+    left: 70px;
+    bottom: 220px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 12%);
+    border-radius: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.nonHidden {
+    display : inline-block;
+}
+
+.card header {
+    padding: 1em;
+}
+
+.card-section {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+    .card-section h2 {
+        font-weight: bold;
+        margin-bottom: 0.2em;
+    }
+
+    .card-section p {
+        font-weight: normal;
+        color: var(--paragraph-color);
+    }
+
+.counter-ui-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    font-size: 5em;
+    font-weight: bold;
+    width: 1.5em;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    appearance: none;
+    background: transparent;
+    border: 1px solid var(--paragraph-color);
+    height: 40px;
+    width: 40px;
+    border-radius: var(--border-radius);
+}
+
+    button:focus {
+        outline: #39A7B8 auto 1px;
+    }
+
+footer {
+    width :280px;
+    color: #999;
+    text-align: center;
+    padding: 2em 1em 1em;
+}
+
+    footer span {
+        font-size: 0.8em;
+    }
+
+
+
+
+
+
+

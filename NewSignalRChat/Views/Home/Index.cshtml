@@ -1,0 +1,74 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="knockout-app" class="background">
+        <div id="card" class="card ">
+            <header>
+                Скажите спасибо своему Коллеге
+            </header>
+            <div class="card-section">
+                <h4>Здравствуйте, <span data-bind="text: userName"></span></h4>
+                <p>Сколько и кому баллов начислим?</p>
+                <div class="counter-ui-container">
+                    <button data-bind="click: decrease">-</button>
+                    <span id="counter" class="counter" data-bind="text: count">0</span>
+                    <button data-bind="click: increase">+</button>
+                </div>
+                <p>
+                    Ваш коллега будет <span data-bind="text: collegeStatus"></span>
+                </p>
+            </div>
+            <footer class="footer">
+                <input id="txtUserName1" type="text" class="txtUserName1" placeholder="Имя коллеги" />
+                <input  data-bind="click: respect"  type="button" class="btnLogin btnLogin11" value="Оказать уважение коллеге" />
+            </footer>
+        </div>
+        <div class="sayThankYou">
+            
+
+        </div>
+        <div class="main">
+            <div class="fixed">
+                <img src="https://financesoft.kg/wp-content/themes/finance/images/logo-footer.png" alt="Alternate Text" />
+                <h2 class="chatTitle">ЧАТ ДЛЯ СОТРУДНИКОВ</h2>
+                <div id="loginBlock">
+                    <p class="setName">Введите имя:</p>
+                    <input id="txtUserName" type="text" class="txtUserName" placeholder="Имя" />
+                    <input  data-bind="click: alert" id="btnLogin" type="button" class="btnLogin" value="Вход" />
+                </div>
+            </div>
+            <div id="chatBody">
+                <div id="header"></div>
+                <div id="inputForm">
+                    <input type="text" id="message" class="txtUserName" />
+                    <input type="button" id="sendmessage" class="btnLogin" value="Отправить" />
+                </div>
+                <div id="chatroom"></div>
+
+                <div id="chatusers">
+                    <p><b>Все пользователи</b></p>
+                </div>
+            </div>
+            <input id="hdId" type="hidden" />
+            <input id="username" type="hidden" />
+        </div>
+    </div>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/Knockout_version_3.5.0.js"></script>
+    <!--Ссылка на библиотеку SignalR -->
+    <script src="~/Scripts/jquery.signalR-2.4.3.js"></script>
+    <!--Ссылка на автоматически сгенерированный скрипт хаба SignalR -->
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/CoScripts.js"></script>
+    <script src="~/Scripts/util.js"></script>
+</body>
+</html>
